@@ -1,0 +1,72 @@
+main {
+    width: 100vw;
+    height: 100vh;
+}
+.header {
+    width: 100px;
+    height: 100vh;
+    background-color: var(--headeris);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header:hover {
+    position: absolute;
+    width: 206px;
+    height: 100vh;
+    left: 0px;
+    display: inline-block;
+    background-color: var(--headeris);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.logotipas {
+    margin: 52px 16px 32px 16px;
+    border-bottom: 2px solid var(--icons-hover);
+    padding-bottom: 24px;
+}
+header:hover > .logotipas {
+    margin: 52px 69px 32px 69px;
+    border-bottom: 2px solid var(--icons-hover);
+    padding-bottom: 32px 0px;
+}
+nav > a {
+    width: 195px;
+    height: 57px;
+    margin-left: 11px;
+    /* padding: 12.5px 25px; */
+    display: inline-block;
+    border-radius: 25px 0px 0px 25px;
+}
+
+
+.ketvirtas-div {
+    margin-left: 3.5px;
+}
+
+nav > a > img {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+nav > a > div {
+    width: 62px;
+    height: 25px;
+    float: left;
+    margin-left: 19px;
+    padding-top: 6.25px;
+    color: var(--icons-active);
+    text-align: left;
+}
+.ketvirtas-img {
+    width: 40px;
+    height: 25px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 11px;
+    transform: translate(-50%, -50%);
+    border-top: 1px solid var(--icons-active);
+    color: var(--icons-active);
+}

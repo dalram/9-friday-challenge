@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap');
+}
+:root {
+   --backgroundas: #E5E5E5;
+   --headeris: #F7F6FF;
+   --icons-hover: #C4C4C4;
+   --icons-active: #02577A;
+}
 body,
 body * {
     margin: 0;
@@ -5,7 +15,8 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
 }
-
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat';
+    background: var(--backgroundas);
+    width: 100%;
 }
