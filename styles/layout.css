@@ -55,6 +55,7 @@ nav > a > img {
     height: 25px;
     float: left;
     margin-left: 32px;
+    filter: invert(88%) sepia(2%) saturate(19%) hue-rotate(314deg) brightness(89%) contrast(93%);;
 }
 header:hover > nav > a > img {
     width: 25px;
@@ -108,11 +109,11 @@ header:hover > nav > a > .zaidimai {
     color: var(--icons-active);
 }
 nav > a:active {
-    background-color: aqua;
+    background-color: #fff;
 }
 
 nav > a:active > img {
-    background-color: aqua;
-    fill: var(--icons-active); 
-    /* Kaip on active padaryti uzfillinta svg norima spalva??? */
+    /* Kaip on active su fill padaryti uzfillinta svg norima spalva??? 
+    SVG pradedant projektui pasidaryti juos ir tada naudoti filteri nudazyti juos su filter generatoriumi.*/
+    filter: invert(17%) sepia(72%) saturate(3153%) hue-rotate(180deg) brightness(90%) contrast(98%);
 }
