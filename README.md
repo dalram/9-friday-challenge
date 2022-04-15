@@ -4,7 +4,7 @@ _9-friday-challenge_
 
 This is class project with HTML, CSS and JS. Pull request are welcome, but priority for project author! Thank you for your cooperation!
 
-Site published at: dalram.github.io/9-friday-challenge/
+Site published at: (https://dalram.github.io/9-friday-challenge/)
 
 Design: [] (https://www.figma.com/file/uaVXnAQh9QxVsUD1RcQEbt/Friday-Challenge?node-id=607%3A721)
 
