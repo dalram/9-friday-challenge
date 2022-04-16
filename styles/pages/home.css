@@ -1,0 +1,74 @@
+/* base */
+@import '../base/global.css';
+@import '../base/layout.css';
+
+/* 3rd - party */
+
+/* Components */
+@import '../components/nav.css';
+
+.container {
+    padding: 20px;
+}
+
+
+
+.footer {
+    
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 1em 3em;
+    transform: translate(-50%);
+    border-top: 1px solid var(--icons-active);
+    color: var(--icons-active);
+    text-align: center;
+    font-size: 11px;
+}
+.footer-text {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 50px;
+}
+@media (min-width: 767px){
+    .col-lg-reverse {
+        float: right;
+    }
+}
+
+.align {
+    text-align: left;
+    display: inline-block;
+    max-width: 341px;
+    height: 80px;
+}
+.row {
+    width: 100%;
+}
+@media (max-width: 1000px) {
+    .banner {
+        width: 100%;
+        background-image: url('../../assets/banner.png');
+        height: 283px;
+    }
+}
+@media (min-width: 1000px){
+    .banner {
+        width: 100%;
+        background-image: url('../../assets/banner.png');
+        height: 432px;
+    }
+}
+.paragraph {
+    margin-top: 20px;
+    
+
+}
+.center {
+    text-align: center;
+    font-size: 16px;
+    padding: 2em 4em;
+    border: 2px solid var(--icons-active);
+    border-radius: 1em;
+}

@@ -1,19 +1,17 @@
-main {
-    width: 100vw;
-    height: 100vh;
-}
+
 .header {
     width: 100px;
-    height: 100vh;
+    height: 100%;
     background-color: var(--headeris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    margin-left: 0;
+    display: block;
 }
 .header:hover {
-    position: absolute;
     width: 206px;
     height: 100vh;
     left: 0px;
-    display: absolute;
     background-color: var(--headeris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
@@ -23,21 +21,20 @@ main {
     border-bottom: 2px solid var(--icons-hover);
     padding-bottom: 24px;
 }
-header:hover > .logotipas {
+.header:hover > .logotipas {
     margin: 22px 39px 32px 39px;
     padding: 30px;
     border-bottom: 2px solid var(--icons-hover);
     
 }
-nav > a {
+.header > a {
     width: 195px;
     height: 57px;
     margin: 0px 0px 8.5px 11px;
-    /* padding: 12.5px 25px; */
     display: block;
     border-radius: 25px 0px 0px 25px;
 }
-nav > a:hover {
+.header > a:hover {
     width: 195px;
     height: 57px;
     margin-left: 11px;
@@ -55,15 +52,15 @@ nav > a > img {
     height: 25px;
     float: left;
     margin-left: 32px;
+    margin-top: 15px;
     filter: invert(88%) sepia(2%) saturate(19%) hue-rotate(314deg) brightness(89%) contrast(93%);;
 }
-header:hover > nav > a > img {
+header:hover > a > img {
     width: 25px;
     height: 25px;
-    display: flex;
     margin: 17px 0px 16px 32px;
 }
-.header > nav > a > div {
+.header > a > div {
     width: 62px;
     height: 25px;
     float: left;
@@ -73,14 +70,13 @@ header:hover > nav > a > img {
     text-align: left;
     display: none;
 }
-.header:hover > nav > a > div {
-    width: 62px;
+.header:hover > a > div {
+    width: 30px;
     height: 18px;
     float: left;
     margin: 15px 57px 20px 19px;
     padding-top: 6.25px;
     color: var(--icons-active);
-    text-align: left;
     display: block;
 }
 .ketvirtas-img {
@@ -88,26 +84,17 @@ header:hover > nav > a > img {
     height: 25px;
     margin-left: 22.5px;
 }
-header:hover > nav > a > .ketvirtas-img {
+header:hover > a > .ketvirtas-img {
     width: 40px;
     height: 25px;
-    display: flex;
     margin: 17px 0px 16px 19px;
 }
-header:hover > nav > a > .zaidimai {
+header:hover > a > .zaidimai {
     width: 81px;
     height: 18px;
-    margin: 15px 36px 5px 19px;
+    margin: 15px 30px 5px 10px;
 }
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    padding: 11px;
-    transform: translate(-50%, -50%);
-    border-top: 1px solid var(--icons-active);
-    color: var(--icons-active);
-}
+
 nav > a:active {
     background-color: #fff;
 }
